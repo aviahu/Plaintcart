@@ -2,39 +2,40 @@ PHP Lab1
 ===========
 
 
-#####Τι είναι PHP
+##### What is PHP
 
-  - Server Scripting Γλώσσα Προγραμματισμού
-  - Ισχυρό εργαλείο για την κατασκευή δυναμικών και δια δραστικών σελίδων Παγκοσμίου Ιστού.
-  - Ευρέως διαδεδομένη.
-  -Είναι εντελώς δωρεάν.
+  - Server Scripting Programming Language
+  - Powerful tool for building dynamic and active through Web pages.
+  - Widely prevalent.
+  -It is completely free .
 
-#####PHP Αρχείο
+##### PHP File
 
-- Μπορεί να περιέχει απλό κείμενο, HTML, CSS, JavaScript και κώδικα PHP
-- Τα αρχεία PHP εκτελούνται στον διακομιστή (Server) και το αποτέλεσμα αυτών επιστρέφεται στον περιηγητή ιστού (Browser) ως απλό HTML κείμενο.
-- Κατάληξη αρχείων  .php
+- It can contain plain text , HTML, CSS, JavaScript and PHP code
+- The PHP files are running on the server (Server) , and the result thereof is returned to the web browser (Browser) as plain HTML text .
+- Suffix .php files
 
-#####Γιατί PHP?
+##### Why PHP ;
 
-- Μπορεί να τρέξει σε μια πληθώρα από πλατφόρμες (Linux, Unix, Windows, Mac OS X etc.)
-- Είναι συμβατή με τους περισσότερους τύπους διακομιστών (Servers) που χρησιμοποιούνται σήμερα (Apache, IIS, etc.)
-- Υποστηρίζει ένα ευρύ φάσμα βάσεων δεδομένων
-- Εύκολη στην εκμάθηση 
+- You can run on a variety of platforms (Linux, Unix, Windows, Mac OS X etc.)
+- It is compatible with most types of servers (Servers) used today (Apache, IIS, etc.)
+- Supports a wide range of databases
+- Easy to Learn
 
-#####Setup PHP
+##### Setup PHP
 
-- Εγκατάσταση Xampp (https://www.apachefriends.org/index.html)
-- Ξεκινάμε τον Apache και MySQL (Tip κλείστε Skype)
-- Πρόσβαση στο http://localhost/
-
-
-> Αν δεν τρέχει ο Apache αλλάξτε την πόρτα του skype.
+- Install Xampp (https://www.apachefriends.org/index.html)
+- We start the Apache and MySQL (Tip quit Skype)
+- Access to http: // localhost /
 
 
-#Παραδείγματα
+> 
+If you do not run the Apache change the door skype.
 
- Εμφάνιση κειμένου στο body της σελίδας με χρήση  PHP
+
+Examples #
+
+ Display text in the body of the page using PHP
 
 
 
@@ -49,7 +50,7 @@ PHP Lab1
 </html> 
 ```
 
- Ορισμός μεταβλητών
+definition of variables
 
 
 
@@ -61,7 +62,7 @@ PHP Lab1
 ?>
 ```
 
-Εμφάνιση Κειμένου
+Show Text
 
 
 
@@ -73,7 +74,7 @@ PHP Lab1
     echo "This ", "string ", "was ", "made ", "with multiple parameters.";
 ?> 
 ```
-Εμφάνιση Μεταβλητών
+Show Variables
 
 
 
@@ -90,7 +91,7 @@ PHP Lab1
 ?> 
 ```
 
-Συνθήκες ελέγχου
+Test conditions
 
 ```php
 <?php
@@ -104,7 +105,7 @@ PHP Lab1
 ?>  
 ```
 
-Δομή Επανάληψης
+Repetition structure
 ```php
 <?php
     $x = 1;
@@ -116,7 +117,7 @@ PHP Lab1
 ?> 
 ```
 
-Δομή με For
+For structure
 
 ```php
 <?php
@@ -126,7 +127,7 @@ PHP Lab1
 ?> 
 ```
 
-Συναρτήσεις 
+functions
 
 ```php
 <?php
@@ -137,7 +138,7 @@ PHP Lab1
     echo $message;
 ?>
 ```
-Πίνακες
+Paintings
 
 ```php
 <?php
@@ -145,6 +146,6 @@ PHP Lab1
     echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
 ?> 
 ```
-### Επόμενο Εργαστήριο
+### next Lab
 
- - Δημιουγία Φόρμας
+ - Creatives Form
